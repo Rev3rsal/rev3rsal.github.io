@@ -1,0 +1,116 @@
+/*html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }*/
+body{
+    background-image: linear-gradient(red,orangered,orange);
+    height: 100vh;
+}
+
+#imagenpng {
+    height: 250px;
+    width: 550px;
+    border: 1px solid blue;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+}
+
+#start {
+    margin: auto;
+    display: block;
+    background-color: white;
+    height: 80px;
+    width: 150px;
+    font-size: 40px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+#butt1 {
+    margin-bottom: 10px;
+    margin-left: 450px;
+    background-color: white;
+    border-radius: 15px;
+    visibility: hidden;
+}
+#butt2 {
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 15px;
+    visibility: hidden;
+}
+#butt3 {
+    margin: auto;
+    margin-left: 50px;
+    background-color: white;
+    border-radius: 15px;
+    visibility: hidden;
+    /*position: absolute;*/
+
+}
+
+
+#buttonp {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+#buttonpa {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 5px;
+}
+#buttont {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#p {
+    margin-top: -2px;
+    text-align: center;
+    font-size: large;
+    visibility: hidden;
+}
+
+#titulo {
+    font-size: large;
+    text-align: center;
+    visibility: hidden;
+    margin-top: -20px;
+}
+#titulo1 {
+    margin-top: -13px;
+    font-size: large;
+    text-align: center;
+    visibility: hidden;
+}
+
+#butt4 {
+    visibility: hidden;
+    margin: auto;
+}
+#firma{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+/*#start1 {
+    height: 200px;
+    width: 200px;
+
+}*/

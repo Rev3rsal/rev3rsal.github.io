@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--<script src="Javascript.js"></script>-->
+    <title>Juego</title>
+</head>
+<body>
+    <div class="div1"><img   id="imagenpng" src="PPT.png" type="button"></div>
+    <button onclick="activar()" id="start">JUGAR</button>
+    <!--<button type="button" id="start" onclick="gameStart()">JUGAR</button>-->
+    <p id="titulo">¡Bienvenido al juego!</p>
+    <p id="titulo1">Haz click en alguna carta debajo para empezar.</p>
+    <button id="butt1" onclick="juego(player = 1)"><img src="piedra.png" id="buttonp"></button>
+    <button id="butt2" onclick="juego(player = 2)"><img src="papel.png" id="buttonpa"></button>
+    <button id="butt3" onclick="juego(player = 3)"><img src="tijera.png" id="buttont"></button>
+    <p id="p"></p>
+    <p id="firma">Hecho por: Rev3rsal</p>
+    <script src="Javascript.js"></script>
+</body>
+</html>
