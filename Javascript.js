@@ -12,6 +12,7 @@ function activar() {
         butt3.style.visibility="visible"
         firma.style.visibility="visible"
         p.style.visibility="visible"
+        score.style.visibility="visible"
     }else {
         ima1.style.visibility="hidden"
         ima.style.visibility="hidden"
