@@ -105,12 +105,22 @@ body{
 #firma{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    right: 0;
+    right: 5px;
     bottom: 0;
     visibility: hidden;
 }
-/*#start1 {
-    height: 200px;
-    width: 200px;
-
+#score {
+    text-align: center;
+	font-size: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*#scoreOp{
+    text-align: center;
+	font-size: 100px;
+    position: absolute;
+    top: 5px;
+    left: 270px;
 }*/
+

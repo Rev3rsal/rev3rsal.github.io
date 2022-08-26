@@ -33,12 +33,8 @@ function activar() {
         document.getElementById("p").innerHTML = "Mucha suerte en el juego :)"
     }
 
-
-
-
-
-//El jugador elige carta
-
+//El jugador elige carta & Score
+let score1 = 0
 function juego() {
     if (player == 1) {
         alert("Elegiste: Piedra")
@@ -60,8 +56,8 @@ function juego() {
     } else {
     alert("El enemigo ha elegido Tijera")
     }
-//Showdown
 
+//Showdown
 if (player == enemy) {
     alert("¡Esta partida terminó en empate!")
     let empataste = "Haz empatado esta ronda." + "<br>" + "Vuelve a elegir para jugar."
@@ -70,26 +66,38 @@ if (player == enemy) {
     alert("¡Haz ganado con Piedra!")
     let ganaste = "Haz ganado esta ronda." + "<br>" + "Vuelve a elegir para jugar."
     document.getElementById("p").innerHTML = ganaste
+    score1++
+    document.getElementById("score").innerHTML="Score: "+score1
 }else if (player == 2 && enemy == 1) {
     alert("¡Haz ganado con Papel!")
     let ganaste = "Haz ganado esta ronda." + "<br>" + "Vuelve a elegir para jugar."
     document.getElementById("p").innerHTML = ganaste
+    score1++
+    document.getElementById("score").innerHTML="Score: "+score1
 }else if (player == 3 && enemy == 2) {
     alert("¡Haz ganado con Tijera!")
     let ganaste = "Haz ganado esta ronda." + "<br>" + "Vuelve a elegir para jugar."
     document.getElementById("p").innerHTML = ganaste
+    score1++
+    document.getElementById("score").innerHTML="Score: "+score1
 }else if (player == 1 && enemy == 2) {
     alert("¡Perdiste porque el oponente eligió Papel!")
     let perdiste = "Haz perdido esta ronda." + "<br>" + "Vuelve a elegir para jugar."
     document.getElementById("p").innerHTML = perdiste;
+    score1--
+    document.getElementById("score").innerHTML="Score: "+score1
 }else if (player == 3 && enemy == 1) {
     alert("¡Perdiste porque el oponente eligió Piedra!")
     let perdiste = "Haz perdido esta ronda." + "<br>" + "Vuelve a elegir para jugar."
     document.getElementById("p").innerHTML = perdiste;
+    score1--
+    document.getElementById("score").innerHTML="Score: "+score1
 }else if (player == 2 && enemy == 3) {
     alert("¡Perdiste porque el oponente eligió Tijera!")
     let perdiste = "Haz perdido esta ronda." + "<br>" + "Vuelve a elegir para jugar."
     document.getElementById("p").innerHTML = perdiste;
+    score1--
+    document.getElementById("score").innerHTML="Score: "+score1
 }else {
     alert("Nadie te quiere :v")
 }
