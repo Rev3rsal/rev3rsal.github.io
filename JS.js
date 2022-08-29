@@ -1,4 +1,5 @@
 //Funciones & Respuestas
+let sound = new Audio("you_win.mp3")
 function resp1(){
     let respuesta1=prompt("Escribe los 3 dígitos:")
     if (respuesta1==1.61){
@@ -113,8 +114,10 @@ function respuestaF() {
     if (respuestaFin=="ltonsh"){
         alert("A veces descifrar da mejores respuestas...")
     }else if(respuestaFin=="enigma"){
+        sound.play()
         alert("¡Bien hecho Jugador!\nHaz ganado el juego.")
     }else if(respuestaFin=="Enigma"){
+        sound.play()
         alert("¡Bien hecho Jugador!\nHaz ganado el juego.")
     }else{
         alert("Incorrecto.")
