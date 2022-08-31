@@ -9,7 +9,8 @@
     padding: 0;
   }*/
 body{
-    background-image: linear-gradient(red,orangered,orange);
+	background-color: orange;
+    /*background-image: linear-gradient(red,orangered,orange);*/
     /*background-attachment: fixed;*/
     height: 100vh;
 }
