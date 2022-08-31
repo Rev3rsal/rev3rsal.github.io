@@ -10,18 +10,26 @@
   }*/
 body{
     background-image: linear-gradient(red,orangered,orange);
+    background-attachment: fixed;
     height: 100vh;
 }
-
-#imagenpng {
+.home2{
+    display: flex;
+    justify-content: center;
+    min-width: 538px;
+}
+#div1{
+    background-color: red;
+}
+#imagenpng {    
     height: 250px;
     width: 550px;
     border: 1px solid blue;
     margin: auto;
     display: block;
     border-radius: 50px;
+    min-width: 300px;
 }
-
 #start {
     margin: auto;
     display: block;
@@ -33,13 +41,32 @@ body{
     margin-bottom: 25px;
     margin-top: 15px;
 }
-
+.home{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    min-width: 550px;
+}
+.home3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    min-width: 550px;
+}
+.home4{
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    /*justify-content: center;*/
+    min-width: 300px;
+}
 #butt1 {
-    margin-bottom: 10px;
-    margin-left: 450px;
+    /*margin-bottom: 10px;
+    margin-left: 450px;*/
     background-color: white;
     border-radius: 15px;
     visibility: hidden;
+    
 }
 #butt2 {
     margin-left: 50px;
@@ -111,18 +138,19 @@ body{
 }
 #div2{
     position: absolute;
-    top: 0;
+    top: 205px;
     left: 0;
 }
 #score {
     text-align: center;
-	font-size: 50px;
+	font-size: 45px;
     text-align: justify;
     visibility: hidden;
+    margin-bottom: -20px;
 }
 #scoreEN {
     text-align: center;
-	font-size: 50px;
+	font-size: 45px;
     text-align: justify;
     visibility: hidden;
 }
