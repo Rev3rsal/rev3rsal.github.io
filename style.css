@@ -10,7 +10,7 @@
   }*/
 body{
     background-image: linear-gradient(red,orangered,orange);
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     height: 100vh;
 }
 .home2{
