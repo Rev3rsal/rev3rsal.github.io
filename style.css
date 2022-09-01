@@ -184,7 +184,7 @@ body{
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 640px) {
     #nick{
         position: absolute;
         top: 220px;
