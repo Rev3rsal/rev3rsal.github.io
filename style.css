@@ -195,6 +195,14 @@ body{
         font-size: small;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
+	#firma{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        font-size: large;
+        right: 5px;
+        bottom: 0;
+        visibility: hidden;
+    }
     #imagenpng{
     height: auto;
     width: 75%;
