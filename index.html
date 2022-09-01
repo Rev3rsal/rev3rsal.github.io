@@ -3,29 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <!--<script src="Javascript.js"></script>-->
     <title>Juego</title>
 </head>
 <body>
+    <div class="contenedor">
     <section class="home2">
         <div class="div1"><img id="imagenpng" src="PPT.png"></div>
     </section>
     <section class="home">
         <div>
             <button onclick="activar()" id="start">JUGAR</button>
+        </div>
+        <div>
+            <p id="score">Jugador: 0</p>
+            <p id="scoreEN">Rival: 0</p>
+        </div>
+        <div>
             <p id="titulo">¡Bienvenido al juego!</p>
             <p id="titulo1">El primero en llegar a 3 victorias es el ganador.</p>
-    </div>
+        </div>
     </section>
     <section class="home3">
         <div><button id="butt1" onclick="juego(player = 1)"><img src="piedra.png" id="buttonp"></button></div>
         <div><button id="butt2" onclick="juego(player = 2)"><img src="papel.png" id="buttonpa"></button></div>
         <div><button id="butt3" onclick="juego(player = 3)"><img src="tijera.png" id="buttont"></button></div>
-    </section>
-    <section class="home4">
-        <div id="div2"><p id="score">Jugador: 0</p><p id="scoreEN">Rival: 0</p></div>
     </section>
     <section class="home">
         <div>
@@ -36,5 +40,6 @@
     <script src="Javascript.js"></script>
     <button id="nick" onclick="myNick()">ELEGIR TU NOMBRE</button>
     <button  id="adivinanzas"><a href="example.html">Acertijos</a></button>
+    </div>
 </body>
 </html>
