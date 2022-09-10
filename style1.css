@@ -585,10 +585,12 @@ body{
     background-color: #eee;
 }
 body{
-    height: 100vh;
+    /*height: 100%;*/
     width: 100%;
     background-image: linear-gradient(red,lightblue);
     /*background-repeat: repeat;*/
     background-attachment: fixed;
+    background-size: cover;
+	background-position: center;
 }
 }
