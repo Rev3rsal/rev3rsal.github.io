@@ -1,5 +1,6 @@
 //Funciones & Respuestas
 let sound = new Audio("you_win.mp3")
+sound.volume= 0.5
 function resp1(){
     let respuesta1=prompt("Escribe los 3 dígitos:")
     if (respuesta1==1.61){

@@ -27,23 +27,6 @@ body{
     margin-top: 25px;
     padding-top: 10px;
 }
-/*#principal1{
-    background-color: blue;
-    height: 50px;
-    width: 100px;
-    margin: auto;
-    margin-bottom: 30px;
-    
-}
-#principal2{
-    background-color: orange;
-    margin-top: 5px;
-    height: 50px;
-    width: 500px;
-    display: block;
-    position: relative
-}*/
-
 #titulo {
     visibility: visible;
     background-color: white;
@@ -57,16 +40,6 @@ body{
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    /*padding: 5px;
-    border-top-right-radius: 42px;
-    border-bottom-left-radius: 42px;
-    top: 50px;
-    right: 37vw;
-    padding: 10px;
-    position: absolute;
-    display: inline-block;
-    text-align: center; 
-    margin: auto;*/
 }
 #h3{
     visibility: visible;
@@ -78,16 +51,6 @@ body{
     text-align: center;
     right: 50px;
     border-radius: 5px;
-    /*top: 125px;
-    right: 46vw;
-    padding: 5px;
-    position: absolute;
-    border-radius: 50px;
-    /*border-top-right-radius: 42px;
-    border-bottom-left-radius: 42px;*/
-    /*display: inline-block;
-    text-align: center;
-    background-color: lightcyan;*/
 }
 #acertijo1{
     visibility: visible;
@@ -281,8 +244,6 @@ body{
 }
 
 
-
-
 /*Infos*/
 #info1{
     display: inline-block;
@@ -332,4 +293,302 @@ body{
     border-radius: 5px;
     padding: 2px;
     visibility: hidden;
+}
+
+@media screen and (max-width: 640px) {
+    #div-principal {
+        width: 90%;
+        height: auto;
+    }
+    #titulo {
+        visibility: visible;
+        background-color: white;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 5px;
+        background-color: burlywood;
+        border-radius: 10px;
+        font-size: large;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #h3{
+        visibility: visible;
+        background-color: lightgray;
+        width: 30%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        right: 50px;
+        border-radius: 5px;
+    }
+    #acertijo1{
+        visibility: visible;
+        background-color: white;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 5px;
+        text-align: center;
+        /*visibility: hidden;*/
+        display: inline-block;
+        text-align: justify;
+        padding-left: 7px;
+        padding-top: 3px;
+        border-radius: 20px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    #butt1 {
+        display: inline-block;
+    }
+    #h32 {
+        visibility: visible;
+        background-color: lightgray;
+        width: 30%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        right: 50px;
+        border-radius: 5px;
+        visibility: hidden;
+    }
+    #acertijo2{
+        visibility: visible;
+        background-color: white;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 5px;
+        text-align: center;
+        visibility: hidden;
+        display: inline-block;
+        text-align: justify;
+        padding-left: 7px;
+        padding-top: 3px;
+        border-radius: 20px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    #butt2 {
+        display: inline-block;
+        visibility: hidden;
+    }
+    #h33{
+        visibility: visible;
+        background-color: lightgray;
+        width: 30%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        right: 50px;
+        border-radius: 5px;
+        visibility: hidden;
+    }
+    #acertijo3{
+        visibility: visible;
+        background-color: white;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 5px;
+        text-align: center;
+        visibility: hidden;
+        display: inline-block;
+        text-align: justify;
+        padding-left: 15px;
+        padding-top: 3px;
+        padding-right: 7px;
+        border-radius: 20px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    #butt3 {
+        visibility: hidden;
+    }
+    #h34{
+        visibility: visible;
+        background-color: lightgray;
+        width: 30%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        right: 50px;
+        border-radius: 5px;
+        visibility: hidden;
+    }
+    #acertijo4{
+        visibility: visible;
+        background-color: white;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 5px;
+        text-align: center;
+        visibility: hidden;
+        display: inline-block;
+        text-align: justify;
+        padding-left: 7px;
+        padding-top: 3px;
+        border-radius: 20px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    #butt4 {
+        visibility: hidden;
+    }
+    #h35{
+        visibility: visible;
+        background-color: lightgray;
+        width: 30%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        right: 50px;
+        border-radius: 5px;
+        visibility: hidden;
+    }
+    #acertijo5{
+        visibility: visible;
+        background-color: white;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 5px;
+        text-align: center;
+        visibility: hidden;
+        display: inline-block;
+        text-align: justify;
+        padding-left: 7px;
+        padding-top: 3px;
+        border-radius: 20px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    #butt5 {
+        visibility: hidden;
+    }
+    #h36{
+        visibility: visible;
+        background-color: lightgray;
+        width: 30%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        right: 50px;
+        border-radius: 5px;
+        visibility: hidden;
+    }
+    #acertijo6{
+        visibility: visible;
+        background-color: white;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 5px;
+        text-align: center;
+        visibility: hidden;
+        display: inline-block;
+        text-align: justify;
+        padding-left: 7px;
+        padding-top: 3px;
+        border-radius: 20px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        padding-top: 5px;
+        padding-right: 11px;
+    }
+    #butt6 {
+        visibility: hidden;
+    }
+    /*Infos*/
+#info1{
+    display: inline-block;
+    margin-left: 25px;
+    visibility: hidden;
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 5px;
+}
+#info2{
+    display: inline-block;
+    margin-left: 25px;
+    visibility: hidden;
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 5px;
+}
+#info3{
+    display: inline-block;
+    margin-left: 25px;
+    visibility: hidden;
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 5px;
+}
+#info4{
+    display: inline-block;
+    margin-left: 25px;
+    visibility: hidden;
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 5px;
+}
+#info5{
+    display: inline-block;
+    margin-left: 25px;
+    visibility: hidden;
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 5px;
+}
+#info6{
+    display: inline-block;
+    margin-left: 25px;
+    visibility: hidden;
+    background-color: lightblue;
+    padding: 2px;
+    border-radius: 5px;
+}
+#pruebax {
+    /*right: 25px;*/
+    width: 180px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+#respuestaFinal{
+    display: inline-block;
+    margin-left: 0;
+    width: 80%;
+    right: 0;
+    bottom: 0;
+    font-size: x-large;
+    border-radius: 15px;
+    padding: 2px;
+    visibility: hidden;
+    background-color: #eee;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(red,lightblue);
+    /*background-repeat: repeat;*/
+    background-attachment: fixed;
+}
 }
