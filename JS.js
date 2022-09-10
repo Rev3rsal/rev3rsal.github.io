@@ -9,7 +9,33 @@ function resp1(){
         h32.style.visibility="visible"
         acertijo2.style.visibility="visible"
         butt2.style.visibility="visible"
-    }else {
+    }else if (respuesta1=="code") {
+        sound.play()
+        alert("Usaste el código secreto :o")
+        info1.style.visibility="visible"
+        h32.style.visibility="visible"
+        acertijo2.style.visibility="visible"
+        butt2.style.visibility="visible"
+        info2.style.visibility="visible"
+        h33.style.visibility="visible"
+        acertijo3.style.visibility="visible"
+        butt3.style.visibility="visible"
+        info3.style.visibility="visible"
+        h34.style.visibility="visible"
+        acertijo4.style.visibility="visible"
+        butt4.style.visibility="visible"
+        info4.style.visibility="visible"
+        h35.style.visibility="visible"
+        acertijo5.style.visibility="visible"
+        butt5.style.visibility="visible"
+        info5.style.visibility="visible"
+        h36.style.visibility="visible"
+        acertijo6.style.visibility="visible"
+        butt6.style.visibility="visible"
+        info6.style.visibility="visible"
+        respuestaFinal.style.visibility="visible"
+    }
+    else {
         alert("Incorrecto.")
     }
 }
